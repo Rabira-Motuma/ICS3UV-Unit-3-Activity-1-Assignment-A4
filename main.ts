@@ -5,14 +5,14 @@
 * @fileoverview This program finds and displays the sidelengths of a cube with a volume of 1000 mm³.
 */
 
-// INPUT - number data type number1
+// INPUTS - number data type numbers
 let numbers : number = [56.9, 89.7, 90.2];
 
 // PROCESS
 // calculate answers
 // https://www.geeksforgeeks.org/javascript/how-to-compute-the-sum-and-average-of-elements-in-an-array-in-javascript/
 let sum : number = numbers[0] + numbers[1] + numbers[2];
-let average : number = sum / numbers.length
+let average : number = sum / numbers.length;
 
 // OUTPUT
 // display average in conclusion sentences
